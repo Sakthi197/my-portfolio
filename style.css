@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  padding: 150px 20px;
+  background-image: url(../images/bgi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+@media (max-width: 320px) {
+  .banner {
+    padding: 60px 15px;
+  }
+
+  .images {
+    padding-left: 67px;
+
+  }
+
+  .card {
+    margin-bottom: 20px;
+    margin-left: 23px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .banner {
+    padding: 200px;
+  }
+
+  .images {
+    padding-left: 150px;
+  }
+}
+
+
+.navbar {
+  font-weight: 700;
+}
